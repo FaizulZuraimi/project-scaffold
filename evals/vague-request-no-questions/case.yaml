@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-request-no-questions
+expected_outcome: |
+  A minimal default project where everything unknown is a placeholder and nothing is invented.

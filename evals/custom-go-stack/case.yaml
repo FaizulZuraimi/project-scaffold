@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: custom-go-stack
+expected_outcome: |
+  Docs-only scaffold with the process contract, Go named in the stack, and no pretend Python app.

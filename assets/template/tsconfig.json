@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["node", "vite/client"]
+  },
+@@if e2e
+  "include": ["dashboard", "e2e", "playwright.config.ts"]
+@@end
+@@if !e2e
+  "include": ["dashboard"]
+@@end
+}
